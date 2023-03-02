@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>contact_us_form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/action.php">
+        <h1>LEAVE US YOUR INFO</h1>
+        <p>and we will get back to you.</p>
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          placeholder="Full Name"
+        />
+        <input type="email" name="email" id="email" placeholder="Email" /><br />
+        <input
+          type="number"
+          name="phone_number"
+          id="phone_number"
+          placeholder="Phone Number"
+        />
+        <input
+          type="url"
+          name="website"
+          id="website"
+          placeholder="Website"
+        /><br />
+        <textarea
+          class="comment-box"
+          name="comment"
+          id="comment"
+          cols="25"
+          rows="4"
+          placeholder="Comment"
+        ></textarea>
+        <br />
+        <input class="button" type="submit" name="submit" value="SUBMIT NOW" />
+      </form>
+    </div>
+  </body>
+</html>
